@@ -9,7 +9,7 @@ $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown';
   <title>User Agent</title>
 </head>
 <body>
-  <h1>Your browser user agent</h1>
+  <h1>Your browser user agent is this:</h1>
   <p><?php echo htmlspecialchars($userAgent, ENT_QUOTES, 'UTF-8'); ?></p>
 </body>
 </html>
